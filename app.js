@@ -29,12 +29,6 @@ const quoteSchema = mongoose.Schema(
 
 const Quote = mongoose.model("Quote", quoteSchema);
 
-// Quote.insertMany(quotes, function(err, docs) {
-//   if (err) {
-//     console.log(err);
-//   }
-// });
-
 app.get("/", function(req, res){
   res.render("home");
 });
