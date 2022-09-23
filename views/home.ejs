@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lewis Hamilton Quotes API</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/tailwind.css">
+</head>
+
+<body>
+    <div class="flex justify-center font-mono">
+        <section class="py-6 bg-white">
+            <div class="flex px-9 mx-auto">
+                <div class="relative">
+                    <img class="mx-auto my-3" src="/icon.png" alt="chequered flag">
+                    <h2 class="w-full font-bold text-center text-3xl sm:text-4xl md:text-5xl">Lewis Hamilton Quotes API
+                    </h2>
+                    <p class="w-full py-5 mx-auto text-lg text-center text-gray-700">A free
+                        RESTful API for random and tagged Sir Lewis Hamilton quotes.
+                    </p>
+                    <h3 class="w-full font-bold my-3 text-2xl sm:text-3xl md:text-4xl text-center">Usage</h3>
+                    <h3 class="w-full my-3 text-lg text-gray-700 text-center">Get a random quote</h3>
+                    <div class="flex flex-wrap sm:flex-nowrap gap-4 justify-center">
+                        <div class="bg-gray-900 rounded-full text-white px-3">GET</div>
+                        <a href="/quotes/" class="text-1xl underline">https://lh44quotes.herokuapp.com/quotes/</a>
+                    </div>
+                    <h3 class="w-full my-3 text-lg text-gray-700 text-center">Get a quote with a specific tag</h3>
+                    <div class="flex flex-wrap sm:flex-nowrap gap-4 justify-center">
+                        <div class="bg-gray-900 rounded-full text-white px-3">GET</div>
+                        <a class="text-1xl underline"> https://lh44quotes.herokuapp.com/quotes/{tag}/</a>
+                    </div>
+                    <h3 class="w-full mt-6 mb-9 text-sm text-gray-700 text-center">Tags: <a href="/quotes/Childhood"
+                            class="hover:text-red-500">Childhood</a>, <a href="/quotes/F1"
+                            class="hover:text-lime-500">F1</a>, <a href="/quotes/Life"
+                            class="hover:text-sky-500">Life</a>, <a href="/quotes/Philosophy"
+                            class="hover:text-purple-500">Philosophy</a>, <a href="/quotes/Racing"
+                            class="hover:text-rose-400">Racing</a>, <a href="/quotes/Success"
+                            class="hover:text-green-500">Success</a>.</h3>
+                    <a href="https://github.com/paolilla/lewis-hamilton-quotes-api"><img class="mx-auto"
+                            src="https://img.shields.io/github/stars/paolilla/paolilla?style=social"
+                            alt="Github Link"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="p-3">
+        <span class="block text-sm text-gray-500 text-center">Made by <a href="https://github.com/paolilla"
+                class="hover:text-teal-500">Paola Jiménez.</a></span>
+    </footer>
+</body>
+
+</html>
