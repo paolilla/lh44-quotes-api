@@ -3,7 +3,7 @@ A free RESTful API for Sir Lewis Hamilton quotes.
 
 ## Usage
 
-### `GET` [https://lh44quotes.herokuapp.com/quotes/](https://lh44quotes.herokuapp.com/quotes/)
+### `GET` [https://lh44-quotes.herokuapp.com/quotes/](https://lh44-quotes.herokuapp.com/quotes/)
 
 ```json
 {
@@ -15,7 +15,7 @@ A free RESTful API for Sir Lewis Hamilton quotes.
 
 or
 
-### `GET` [https://lh44quotes.herokuapp.com/quotes/{tag}/]
+### `GET` [https://lh44-quotes.herokuapp.com/quotes/{tag}/]
 
 Tags: Childhood, F1, Life, Philosophy, Racing, Success.
 
